@@ -1,24 +1,29 @@
-# README
+# gql-chat-server-rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Example server for a chat app using Rails and GraphQL-Ruby.
 
-Things you may want to cover:
+Assessment: non-subscription GraphQL is easy to set up with GraphQL-Ruby, but subscriptions with Action Cable are not well-documented.
 
-* Ruby version
+Not deployed to production.
 
-* System dependencies
+## Requirements
 
-* Configuration
+- Ruby
 
-* Database creation
+## Installation
 
-* Database initialization
+```
+$ bundle install
+```
 
-* How to run the test suite
+## Running
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ rails s
+```
 
-* Deployment instructions
+Access the playground at <http://localhost:3000/graphiql>
 
-* ...
+## License
+
+MIT
